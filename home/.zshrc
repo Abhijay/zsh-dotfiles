@@ -18,6 +18,9 @@ alias pp="export http_proxy=http://gatekeeper.mitre.org:80;export http_proxy=htt
 #aliases
 alias code='open $@ -a "Visual Studio Code - Insiders"'
 
+#homesick dotfile management
+source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+
 # hide vim with 'ctrl-z' (broken?)
 foreground-vi() {
   fg %vi
