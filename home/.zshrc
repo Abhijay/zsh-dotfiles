@@ -4,6 +4,8 @@
   export ZSH=/Users/abhatnagar/.oh-my-zsh
 #Import oh-my-zsh's rc settings separately
   source $ZSH/.zshrc_oh-my-zsh
+#Fix Java
+  export JAVA_HOME=`/usr/libexec/java_home`
 
 #User configuration
 
@@ -12,19 +14,28 @@
   alias run='python ~/Code/Scripts/run-script.py'
   alias go='run go-to-dir'
   alias rm='trash'
-  alias RM='trash'
+  alias RM='/bin/rm'
   alias todo='~/code/scripts/todo.rb'
+  alias showHidden='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+  alias hideHidden='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+  alias ngrok='~/code/scripts/ngrok'
+  alias yarn-links='ls -l node_modules | grep ^l'
+
 
 #homesick dotfile management
   source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 
 #MITRE Proxy
-  export HTTP_PROXY=http://gatekeeper.mitre.org:80
-  export HTTPS_PROXY=http://gatekeeper.mitre.org:80
-  export http_proxy=http://gatekeeper.mitre.org:80
-  export https_proxy=http://gatekeeper.mitre.org:80
+#  export HTTP_PROXY=http://gatekeeper.mitre.org:80
+#  export HTTPS_PROXY=http://gatekeeper.mitre.org:80
+#  export http_proxy=http://gatekeeper.mitre.org:80
+#  export https_proxy=http://gatekeeper.mitre.org:80
   alias np="unset http_proxy;unset HTTP_PROXY;unset HTTPS_PROXY;unset https_proxy"
-  alias pp="export http_proxy=http://gatekeeper.mitre.org:80;export http_proxy=https://gatekeeper.mitre.org:80;export HTTP_PROXY=http://gatekeeper.mitre.org:80;export HTTPS_PROXY=http://gatekeeper.mitre.org:80;"
+  alias pp="export http_proxy=http://gatekeeper.mitre.org:80;export http_proxy=http://gatekeeper.mitre.org:80;export HTTP_PROXY=http://gatekeeper.mitre.org:80;export HTTPS_PROXY=http://gatekeeper.mitre.org:80;"
+  alias setJava="export JAVA_OPTS=\"-Dhttp.proxyHost=gatekeeper.mitre.org -Dhttp.proxyPort=80 -Dhttps.proxyHost=gatekeeper.mitre.org -Dhttps.proxyPort=80 -DsocksProxyHost=gatekeeper.mitre.org -DsocksProxyPort=80\""
+
+#Flask
+ export FLASK_DEBUG=1
 
 #hide vim with 'ctrl-z' (broken?)
   foreground-vi() {
@@ -58,3 +69,6 @@ bindkey -v
 #Remove vim mode delay
 export KEYTIMEOUT=1
 
+#Fix up and down arrow history
+ bindkey '^[[A' up-line-or-search
+ bindkey '^[[B' down-line-or-search
