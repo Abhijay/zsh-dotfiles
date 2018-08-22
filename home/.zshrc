@@ -1,7 +1,7 @@
 #If you come from bash you might have to change your $PATH.
   export PATH=$HOME/bin:/usr/local/bin:$PATH
 #Path to your oh-my-zsh installation.
-  export ZSH=/Users/abhatnagar/.oh-my-zsh
+  export ZSH=~/.oh-my-zsh
 #Import oh-my-zsh's rc settings separately
   source $ZSH/.zshrc_oh-my-zsh
 #Fix Java
