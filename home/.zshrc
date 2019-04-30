@@ -12,7 +12,7 @@
 #aliases
   alias code='open $@ -a "Visual Studio Code - Insiders"'
   alias run='python ~/Code/Scripts/run-script.py'
-  alias go='run go-to-dir'
+  alias goto='run go-to-dir'
   alias rm='trash'
   alias RM='/bin/rm'
   alias todo='~/code/scripts/todo.rb'
@@ -20,7 +20,12 @@
   alias hideHidden='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
   alias ngrok='~/code/scripts/ngrok'
   alias yarn-links='ls -l node_modules | grep ^l'
-
+  alias school='cd ~/School/Berkeley/Spring-2019'
+  alias tpad='open $@ -a "Texpad"'
+  alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+  alias devbox='docker run -i -t ethanlee/cs61c-env /bin/bash'
+  alias usbdoff='sudo killall -STOP -c usbd'
+  alias usbdon'sudo killall -CONT usbd'
 
 #homesick dotfile management
   source "$HOME/.homesick/repos/homeshick/homeshick.sh"
@@ -64,11 +69,17 @@
 setopt +o nomatch
 
 #Vi mode
-bindkey -v
+ bindkey -v
 
 #Remove vim mode delay
-export KEYTIMEOUT=1
+ export KEYTIMEOUT=1
 
 #Fix up and down arrow history
- bindkey '^[[A' up-line-or-search
- bindkey '^[[B' down-line-or-search
+  autoload -U history-search-end
+  zle -N history-beginning-search-backward-end history-search-end
+  zle -N history-beginning-search-forward-end history-search-end
+  bindkey "^[[A" history-beginning-search-backward-end
+  bindkey "^[[B" history-beginning-search-forward-end
+
+#Fix iPhone charging through disabling usbd
+#`sudo killall -STOP -c usbd
