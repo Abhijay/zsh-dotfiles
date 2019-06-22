@@ -1,1 +1,0 @@
-afowler.zsh-theme

@@ -1,1 +1,0 @@
-mrtazz.zsh-theme

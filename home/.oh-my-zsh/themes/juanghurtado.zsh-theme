@@ -1,1 +1,0 @@
-juanghurtado.zsh-theme

@@ -1,1 +1,0 @@
-blinks.zsh-theme

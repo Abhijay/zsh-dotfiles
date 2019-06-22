@@ -1,1 +1,0 @@
-wezm.zsh-theme

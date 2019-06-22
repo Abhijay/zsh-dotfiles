@@ -1,1 +1,0 @@
-dogenpunk.zsh-theme

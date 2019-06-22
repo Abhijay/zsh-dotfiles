@@ -1,1 +1,0 @@
-rkj.zsh-theme

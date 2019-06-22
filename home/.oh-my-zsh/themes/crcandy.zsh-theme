@@ -1,1 +1,0 @@
-crcandy.zsh-theme

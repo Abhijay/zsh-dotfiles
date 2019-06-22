@@ -1,1 +1,0 @@
-wedisagree.zsh-theme

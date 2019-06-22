@@ -1,1 +1,0 @@
-peepcode.zsh-theme

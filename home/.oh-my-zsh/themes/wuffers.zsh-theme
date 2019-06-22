@@ -1,1 +1,0 @@
-wuffers.zsh-theme

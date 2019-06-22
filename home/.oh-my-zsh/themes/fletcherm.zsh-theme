@@ -1,1 +1,0 @@
-fletcherm.zsh-theme

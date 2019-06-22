@@ -1,1 +1,0 @@
-mgutz.zsh-theme

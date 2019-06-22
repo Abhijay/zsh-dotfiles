@@ -1,1 +1,0 @@
-rixius.zsh-theme

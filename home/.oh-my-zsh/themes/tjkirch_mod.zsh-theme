@@ -1,1 +1,0 @@
-tjkirch_mod.zsh-theme

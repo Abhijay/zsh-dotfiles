@@ -1,1 +1,0 @@
-dieter.zsh-theme

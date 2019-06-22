@@ -1,1 +1,0 @@
-nicoulaj.zsh-theme

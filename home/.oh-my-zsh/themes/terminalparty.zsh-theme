@@ -1,1 +1,0 @@
-terminalparty.zsh-theme

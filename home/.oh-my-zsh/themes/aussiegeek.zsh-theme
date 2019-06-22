@@ -1,1 +1,0 @@
-aussiegeek.zsh-theme

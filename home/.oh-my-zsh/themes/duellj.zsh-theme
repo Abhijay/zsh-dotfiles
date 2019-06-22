@@ -1,1 +1,0 @@
-duellj.zsh-theme

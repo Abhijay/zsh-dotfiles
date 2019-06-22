@@ -1,1 +1,0 @@
-suvash.zsh-theme

@@ -1,1 +1,0 @@
-xiong-chiamiov.zsh-theme

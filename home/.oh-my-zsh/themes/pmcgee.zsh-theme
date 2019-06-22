@@ -1,1 +1,0 @@
-pmcgee.zsh-theme

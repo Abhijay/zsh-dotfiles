@@ -1,1 +1,0 @@
-jtriley.zsh-theme

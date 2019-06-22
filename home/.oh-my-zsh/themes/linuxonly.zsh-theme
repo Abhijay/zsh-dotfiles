@@ -1,1 +1,0 @@
-linuxonly.zsh-theme

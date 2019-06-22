@@ -1,1 +1,0 @@
-gnzh.zsh-theme

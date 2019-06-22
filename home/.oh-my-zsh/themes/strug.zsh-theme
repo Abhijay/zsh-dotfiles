@@ -1,1 +1,0 @@
-strug.zsh-theme

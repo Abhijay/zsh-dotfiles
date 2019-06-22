@@ -1,1 +1,0 @@
-sunaku.zsh-theme

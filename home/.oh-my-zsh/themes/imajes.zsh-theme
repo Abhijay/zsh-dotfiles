@@ -1,1 +1,0 @@
-imajes.zsh-theme

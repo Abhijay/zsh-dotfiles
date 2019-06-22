@@ -1,1 +1,0 @@
-jaischeema.zsh-theme

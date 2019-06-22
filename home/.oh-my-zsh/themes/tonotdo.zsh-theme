@@ -1,1 +1,0 @@
-tonotdo.zsh-theme

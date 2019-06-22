@@ -1,1 +1,0 @@
-gentoo.zsh-theme

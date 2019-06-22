@@ -1,1 +1,0 @@
-flazz.zsh-theme

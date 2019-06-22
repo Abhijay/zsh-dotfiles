@@ -1,1 +1,0 @@
-rgm.zsh-theme

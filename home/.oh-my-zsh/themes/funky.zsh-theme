@@ -1,1 +1,0 @@
-funky.zsh-theme

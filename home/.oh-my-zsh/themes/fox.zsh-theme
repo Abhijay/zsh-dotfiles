@@ -1,1 +1,0 @@
-fox.zsh-theme

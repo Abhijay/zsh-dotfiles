@@ -1,1 +1,0 @@
-theunraveler.zsh-theme

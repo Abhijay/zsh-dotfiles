@@ -1,1 +1,0 @@
-fino-time.zsh-theme

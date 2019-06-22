@@ -1,1 +1,0 @@
-bira.zsh-theme

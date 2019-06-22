@@ -1,1 +1,0 @@
-superjarin.zsh-theme

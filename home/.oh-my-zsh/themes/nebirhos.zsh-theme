@@ -1,1 +1,0 @@
-nebirhos.zsh-theme

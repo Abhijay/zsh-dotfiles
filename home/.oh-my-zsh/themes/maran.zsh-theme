@@ -1,1 +1,0 @@
-maran.zsh-theme

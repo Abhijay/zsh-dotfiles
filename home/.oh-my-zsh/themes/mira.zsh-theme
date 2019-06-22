@@ -1,1 +1,0 @@
-mira.zsh-theme

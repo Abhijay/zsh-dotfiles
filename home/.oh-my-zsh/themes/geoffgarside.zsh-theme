@@ -1,1 +1,0 @@
-geoffgarside.zsh-theme

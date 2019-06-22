@@ -1,1 +1,0 @@
-frontcube.zsh-theme

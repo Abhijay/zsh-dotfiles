@@ -1,1 +1,0 @@
-Soliah.zsh-theme

@@ -1,1 +1,0 @@
-ys.zsh-theme

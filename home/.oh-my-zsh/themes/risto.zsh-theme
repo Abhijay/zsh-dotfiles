@@ -1,1 +1,0 @@
-risto.zsh-theme

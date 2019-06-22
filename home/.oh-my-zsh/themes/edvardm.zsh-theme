@@ -1,1 +1,0 @@
-edvardm.zsh-theme

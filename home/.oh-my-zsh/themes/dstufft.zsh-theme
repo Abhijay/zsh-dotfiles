@@ -1,1 +1,0 @@
-dstufft.zsh-theme

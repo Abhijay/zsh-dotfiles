@@ -1,1 +1,0 @@
-dpoggi.zsh-theme

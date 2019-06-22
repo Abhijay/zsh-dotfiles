@@ -1,1 +1,0 @@
-pygmalion.zsh-theme

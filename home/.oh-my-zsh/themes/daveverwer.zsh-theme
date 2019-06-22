@@ -1,1 +1,0 @@
-daveverwer.zsh-theme

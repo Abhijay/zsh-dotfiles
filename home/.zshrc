@@ -6,6 +6,8 @@
   source $ZSH/.zshrc_oh-my-zsh
 #Fix Java
   export JAVA_HOME=`/usr/libexec/java_home`
+#Go Path
+  export GOPATH=$HOME/go 
 
 #User configuration
 
@@ -20,10 +22,9 @@
   alias hideHidden='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
   alias ngrok='~/code/scripts/ngrok'
   alias yarn-links='ls -l node_modules | grep ^l'
-  alias school='cd ~/School/Berkeley/Spring-2019'
+  alias school='cd ~/School/Berkeley/Summer-2019'
   alias tpad='open $@ -a "Texpad"'
   alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
-  alias devbox='docker run -i -t ethanlee/cs61c-env /bin/bash'
   alias usbdoff='sudo killall -STOP -c usbd'
   alias usbdon'sudo killall -CONT usbd'
 

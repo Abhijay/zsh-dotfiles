@@ -1,1 +1,0 @@
-awesomepanda.zsh-theme

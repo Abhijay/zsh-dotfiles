@@ -1,1 +1,0 @@
-candy.zsh-theme

@@ -1,1 +1,0 @@
-jnrowe.zsh-theme

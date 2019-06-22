@@ -1,1 +1,0 @@
-miloshadzic.zsh-theme

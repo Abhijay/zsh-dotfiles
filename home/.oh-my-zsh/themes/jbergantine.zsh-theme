@@ -1,1 +1,0 @@
-jbergantine.zsh-theme

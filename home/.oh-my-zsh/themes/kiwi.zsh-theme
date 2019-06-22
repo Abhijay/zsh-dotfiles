@@ -1,1 +1,0 @@
-kiwi.zsh-theme

@@ -1,1 +1,0 @@
-kphoen.zsh-theme

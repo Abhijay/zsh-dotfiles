@@ -1,1 +1,0 @@
-obraun.zsh-theme
